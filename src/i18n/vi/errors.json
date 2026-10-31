@@ -1,0 +1,140 @@
+{
+  "LO-104-EMAIL": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Email là bắt buộc"
+    ]
+  },
+  "LO-104-PW": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Mật khẩu là bắt buộc"
+    ]
+  },
+  "LO-102": {
+    "error_code": 102,
+    "message": "Email hoặc mật khẩu không đúng"
+  },
+  "FIELD-0001-EMAIL": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Thiếu trường email bắt buộc",
+      "Định dạng trường email không hợp lệ: Địa chỉ email phải chứa ít nhất một ký tự trước và sau ký hiệu '@' và kết thúc bằng phần mở rộng như .com, .net, .org."
+    ]
+  },
+  "FIELD-0001-NAME": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Thiếu trường full_name bắt buộc",
+      "Định dạng trường full_name không hợp lệ: Bắt đầu bằng một hoặc nhiều chữ cái, cho phép các ký tự như dấu cách, dấu gạch nối, dấu nháy đơn, dấu phẩy, dấu chấm trong tên, không cho phép dấu cách"
+    ]
+  },
+  "email must be an email": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Thiếu trường full_name bắt buộc",
+      "Định dạng trường email không hợp lệ: Địa chỉ email phải chứa ít nhất một ký tự trước và sau ký hiệu '@' và kết thúc bằng phần mở rộng như .com, .net, .org."
+    ]
+  },
+  "FIELD-0001-PW": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Định dạng trường mật khẩu không hợp lệ: Độ dài của chuỗi phải từ 7 đến 50 ký tự. Nó phải chứa ít nhất một chữ số. Nó phải chứa ít nhất một chữ in hoa"
+    ]
+  },
+  "CHECKED-ID": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "ID người dùng được cung cấp có định dạng không hợp lệ. ID phải là số lớn hơn 0"
+    ]
+  },
+  "LO-108": {
+    "error_code": 108,
+    "message": "Email đã tồn tại"
+  },
+  "SER-103": {
+    "error_code": 103,
+    "message": "Đã xảy ra lỗi không mong muốn trên máy chủ"
+  },
+  "PROF-104": {
+    "error_code": 116,
+    "message": "Người dùng phải đăng nhập để truy cập tài nguyên này"
+  },
+  "PAG-104": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Tham số không hợp lệ được chuyển tới trang. Tham số 'trang' phải là số lớn hơn 0",
+      "Tham số không hợp lệ được chuyển tới page_size. Tham số 'page_size' phải là số lớn hơn 0"
+    ]
+  },
+  "ADMIN-113": {
+    "error_code": 113,
+    "message": "Người dùng không được ủy quyền"
+  },
+  "RE-MATCHING-PW": {
+    "error_code": 104,
+    "message": "Mật khẩu và mật khẩu xác nhận không khớp"
+  },
+  "ADMIN-114": {
+    "error_code": 113,
+    "message": "Quản trị viên không có quyền xóa thông tin của quản trị viên khác"
+  },
+  "ADMIN-115": {
+    "error_code": 115,
+    "message": "Tài nguyên không tồn tại",
+    "details": [
+      "ID người dùng không tồn tại"
+    ]
+  },
+  "ORDER-FIELD-0001": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Thiếu trường customer_name bắt buộc"
+    ]
+  },
+  "ORDER-FIELD-0002": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Thiếu trường customer_phone bắt buộc"
+    ]
+  },
+  "ORDER-FIELD-0003": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Missing required currency field"
+    ]
+  },
+  "ORDER-FIELD-0004": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Missing required price field"
+    ]
+  },
+  "ORDER-FIELD-0005": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Thiếu trường Payment_method_id bắt buộc"
+    ]
+  }, 
+  "CUR-0001": {
+    "error_code": 210,
+    "message": "Không thể xác định loại tiền tệ"
+  },
+  "PAY-0001": {
+    "error_code": 211,
+    "message": "Không tìm thấy ID lệnh thanh toán"
+  }
+}
