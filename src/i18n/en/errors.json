@@ -1,0 +1,50 @@
+{
+  "LO-104": {
+  "error_code": 104,
+  "message": "Invalid syntax",
+  "details": [
+      "The email field is required",
+      "The password field is required"
+  ]
+  },
+  "LO-102": {
+    "error_code": 102,
+    "message": "Incorrect email or password"
+  },
+  "RE-104": {
+    "error_code": 104,
+    "message": "Invalid syntax",
+    "details": [
+      "Missing required email field",
+      "Missing required full_name field",
+      "Invalid full_name field format: Starts with one or more letters, allows for characters like spaces, hyphens, apostrophes, commas, periods within the name, does not allow trailing spaces",
+      "Invalid email field format: The email address must contain at least one character before and after the '@' symbol and end with an extension like .com, .net, .org.",
+      "Invalid password field format: The length of the string must be between 7 and 50 characters. It must contain at least one digit. It must contain at least one uppercase letter ",
+      "Password and confirm password do not match"
+    ]
+  },
+  "LO-108": {
+    "error_code": 108,
+    "message": "Email already exists"
+  },
+  "SER-103": {
+    "error_code": 103,
+    "message": "An unexpected error occurred on the server"
+  },
+  "PROF-104": {
+    "error_code": 104,
+    "message": "User is not existed"
+  },
+  "PAG-104": {
+    "error_code": 104,
+    "message": "Invalid syntax",
+    "details": [
+      "The invalid parameter is passed to the page. The 'page' parameter must be a number greater than 0",
+      "The invalid parameter is passed to the page_size. The 'page_size' parameter must be a number greater than 0"
+    ]
+  },
+  "ADMIN-113": {
+    "error_code": 113,
+    "message": "The user is not authorized."
+  }
+}

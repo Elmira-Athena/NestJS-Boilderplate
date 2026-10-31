@@ -1,0 +1,50 @@
+{
+  "LO-104": {
+  "error_code": 104,
+  "message": "Lỗi cú pháp",
+  "details": [
+      "Email là bắt buộc",
+      "Mật khẩu là bắt buộc"
+  ]
+  },
+  "LO-102": {
+    "error_code": 102,
+    "message": "Email hoặc mật khẩu không đúng"
+  },
+  "RE-104": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Thiếu trường email bắt buộc",
+      "Thiếu trường full_name bắt buộc",
+      "Định dạng trường full_name không hợp lệ: Bắt đầu bằng một hoặc nhiều chữ cái, cho phép các ký tự như dấu cách, dấu gạch ngang, dấu nháy đơn, dấu phẩy, dấu chấm trong tên, không cho phép dấu cách",
+      "Định dạng trường email không hợp lệ: Địa chỉ email phải chứa ít nhất một ký tự trước và sau ký hiệu '@' và kết thúc bằng phần mở rộng như .com, .net, .org.",
+      "Định dạng trường mật khẩu không hợp lệ: Độ dài của chuỗi phải từ 7 đến 50 ký tự. Nó phải chứa ít nhất một chữ số. Nó phải chứa ít nhất một chữ cái viết hoa ",
+      "Mật khẩu và mật khẩu xác nhận không khớp"
+    ]
+  },
+  "LO-108": {
+    "error_code": 108,
+    "message": "Email đã tồn tại"
+  },
+  "SER-103": {
+    "error_code": 103,
+    "message": "Đã xảy ra lỗi không mong muốn trên máy chủ"
+  },
+  "PROF-104": {
+    "error_code": 104,
+    "message": "Người dùng không tồn tại"
+  },
+  "PAG-104": {
+    "error_code": 104,
+    "message": "Lỗi cú pháp",
+    "details": [
+      "Tham số không hợp lệ được chuyển tới trang. Tham số 'trang' phải là số lớn hơn 0",
+      "Tham số không hợp lệ được chuyển tới page_size. Tham số 'page_size' phải là số lớn hơn 0"
+    ]
+  },
+  "ADMIN-113": {
+    "error_code": 113,
+    "message": "Người dùng không được ủy quyền"
+  }
+}
