@@ -1,0 +1,55 @@
+version: '3.8'
+
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  base:
+    build:
+      dockerfile: base.Dockerfile
+    image: base
+    env_file:
+      - .env
+    environment:
+      - TYPEORM_HOST=postgres-db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=boilerplate
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  db:
+    container_name: postgres-db
+    image: postgres:16-alpine3.18
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=boilerplate
+    env_file:
+      - .env
+    ports:
+      - '5432:5432'
+    networks:
+      - app-network
+
+  init_db:
+    image: base
+    # uncomment the line below to fix the error related to argon2
+    # command: sh -c "npm rebuild argon2 --build-from-source && npm run typeorm:run-migration && npm run seed:run"
+    command: sh -c "npm run typeorm:run-migration && npm run seed:run"
+    env_file:
+      - .env
+    environment:
+      - TYPEORM_HOST=postgres-db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=boilerplate
+    depends_on:
+      - db
+      - base
+    networks:
+      - app-network
