@@ -1,0 +1,140 @@
+{
+  "LO-104-EMAIL": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Email is required"
+    ]
+  },
+  "LO-104-PW": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Password is required"
+    ]
+  },
+  "LO-102": {
+    "error_code": 102,
+    "message": "Incorrect email or password"
+  },
+  "FIELD-0001-EMAIL": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Missing required email field",
+      "Invalid email field format: Email address must contain at least one character before and after the '@' symbol and end with an extension such as .com, .net, .org."
+    ]
+  },
+  "FIELD-0001-NAME": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Required full_name field is missing",
+      "Invalid full_name field format: Starts with one or more letters, allows characters such as spaces, hyphens, apostrophes, commas, periods in the name, spaces are not allowed"
+    ]
+  },
+  "email must be an email": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Required full_name field is missing",
+      "Invalid email field format: Email address must contain at least one character before and after the '@' symbol and end with an extension such as .com, .net, .org."
+    ]
+  },
+  "FIELD-0001-PW": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Invalid password field format: The length of the string must be between 7 and 50 characters. It must contain at least one digit. It must contain at least one capital letter"
+    ]
+  },
+  "CHECKED-ID": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "The user ID provided is in an invalid format. The ID must be a number greater than 0"
+    ]
+  },
+  "LO-108": {
+    "error_code": 108,
+    "message": "Email already exists"
+  },
+  "SER-103": {
+    "error_code": 103,
+    "message": "An unexpected error occurred on the server"
+  },
+  "PROF-104": {
+    "error_code": 116,
+    "message": "User must be logged in to access this resource"
+  },
+  "PAG-104": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Invalid parameter passed to page. Parameter 'page' must be a number greater than 0",
+      "Invalid parameter passed to page_size. Parameter 'page_size' must be a number greater than 0"
+    ]
+  },
+  "ADMIN-113": {
+    "error_code": 113,
+    "message": "Unauthorized user"
+  },
+  "RE-MATCHING-PW": {
+    "error_code": 104,
+    "message": "Password and confirmation password do not match"
+  },
+  "ADMIN-114": {
+    "error_code": 113,
+    "message": "Admins do not have permission to delete other admins' information"
+  },
+  "ADMIN-115": {
+    "error_code": 115,
+    "message": "Resource does not exist",
+    "details": [
+      "User ID does not exist"
+    ]
+  },
+  "ORDER-FIELD-0001": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Required customer_name field is missing"
+    ]
+  },
+  "ORDER-FIELD-0002": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Missing required customer_phone field"
+    ]
+  },
+  "ORDER-FIELD-0003": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Missing required field currency"
+    ]
+  },
+  "ORDER-FIELD-0004": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Missing required field price"
+    ]
+  },
+  "ORDER-FIELD-0005": {
+    "error_code": 104,
+    "message": "Syntax error",
+    "details": [
+      "Required payment_method_id field is missing"
+    ]
+  },
+  "CUR-0001": {
+    "error_code": 210,
+    "message": "Unable to determine currency"
+  },
+  "PAY-0001": {
+    "error_code": 211,
+    "message": "Payment order ID not found"
+  }
+}
