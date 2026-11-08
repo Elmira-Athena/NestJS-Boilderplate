@@ -45,3 +45,6 @@ ca-certificate.crt
 yarn.lock
 package-lock.json
 /uploads/
+
+# Keep local planning documents out of Git
+/docs/
